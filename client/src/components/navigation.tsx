@@ -7,10 +7,9 @@ export default function Navigation() {
   const navItems = [
     { href: '#hero', label: 'Home' },
     { href: '#first-meet', label: 'First Meet' },
-    { href: '#first-date', label: 'First Date' },
+    { href: '#first-date', label: 'First ILY' },
     { href: '#funny-moment', label: 'Funny Moment' },
     { href: '#deep-convo', label: 'Deep Talk' },
-    { href: '#gallery', label: 'Gallery' },
   ];
 
   const handleNavClick = (href: string) => {
